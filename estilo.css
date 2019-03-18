@@ -4,14 +4,16 @@
 }
 
 body {
-    margin-top: 0px;
+    margin: 0px;
     padding: 0px;
+    border: 0px;
 }
 
 #cabecalho {
     background-color: #6175f0;
     color: white;
     margin: 0px;
+    padding-top: 20px;
     padding-bottom: 13px;
     padding-left: 34px;
 }
@@ -20,12 +22,14 @@ body {
     font-family: "Kaushan Script", sans-serif;
     text-align: left;
     font-size: 36px;
+    margin: 0%;
 }
 
 #cabecalho h2 {
     font-family: "Times New Roman", sans-serif;
     text-align: left;
     font-size: 24px;
+    margin: 0%;
 }
 
 #verdade img {
@@ -48,7 +52,7 @@ body {
 }
 
 #verdade audio {
-    /*display: none;*/
+    display: none;
 }
 
 
@@ -57,7 +61,8 @@ body {
     border: 1px solid #ff56fb;
     width: 405px;
     float: right;
-    padding: 20px 35px 30px 35px
+    padding: 20px 35px 30px 35px;
+    margin-left: 25px;
 }
 
 #hoje img {
@@ -87,10 +92,11 @@ body {
 }
 
 #musica {
-    /* float: left;*/
     padding-left: 12px;
 }
-
+#musica .espacado {
+    padding-left: 34px;
+}
 #musica h2 {
     font-family: "Times New Roman", sans-serif;
     text-align: left;
@@ -99,8 +105,5 @@ body {
 #musica .destacado {
    background-color: #c4caf3;
    color: #004a79;
+    padding: 0px;
 }
-/* font-family: "Arial", sans-serif;
-    text-align: justify;
-  font-size: 28px;
-    border: 2px solid #ff56fb;*/
