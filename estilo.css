@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Kaushan Script";
+    src: url("fonts/KaushanScript-Regular.otf");
+}
+
+body {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#cabecalho {
+    background-color: #6175f0;
+    color: white;
+    margin: 0px;
+    padding-bottom: 13px;
+    padding-left: 34px;
+}
+
+#cabecalho h1 {
+    font-family: "Kaushan Script", sans-serif;
+    text-align: left;
+    font-size: 36px;
+}
+
+#cabecalho h2 {
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+    font-size: 24px;
+}
+
+#verdade img {
+    float: left;
+    width: 310px;
+    margin-right: 13px;
+}
+
+#verdade h2 {
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+    font-size: 24px;
+}
+
+#verdade p {
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+}
+
+#verdade audio {
+    /*display: none;*/
+}
+
+
+#hoje {
+    background-color: #f8cef7;
+    border: 1px solid #ff56fb;
+    width: 405px;
+    float: right;
+    padding: 20px 35px 30px 35px
+}
+
+#hoje img {
+    width: 112px;
+    height: 112px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hoje p {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+#hoje h3 {
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+#hoje h2 {
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+#musica {
+    /* float: left;*/
+    padding-left: 12px;
+}
+
+#musica h2 {
+    font-family: "Times New Roman", sans-serif;
+    text-align: left;
+    font-size: 24px;
+}
+#musica .destacado {
+   background-color: #c4caf3;
+   color: #004a79;
+}
+/* font-family: "Arial", sans-serif;
+    text-align: justify;
+  font-size: 28px;
+    border: 2px solid #ff56fb;*/
