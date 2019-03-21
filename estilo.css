@@ -4,9 +4,12 @@
 }
 
 body {
-    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0px;
     border: 0px;
+    width: 1200px;
 }
 
 #cabecalho {
@@ -55,7 +58,6 @@ body {
     display: none;
 }
 
-
 #hoje {
     background-color: #f8cef7;
     border: 1px solid #ff56fb;
@@ -94,9 +96,7 @@ body {
 #musica {
     padding-left: 12px;
 }
-#musica .espacado {
-    padding-left: 34px;
-}
+
 #musica h2 {
     font-family: "Times New Roman", sans-serif;
     text-align: left;
@@ -106,4 +106,10 @@ body {
    background-color: #c4caf3;
    color: #004a79;
     padding: 0px;
+}
+#musica >p:nth-child(2n){
+    padding-left: 34px;
+}
+.destacado >p:nth-child(2n){
+    padding-left: 34px;
 }
